@@ -31,8 +31,8 @@ CACHE_FILE="$CACHE_DIR/imagemagick-6.9.11-22.tar.gz"
 
 if [ ! -f $CACHE_FILE ]; then
   # install imagemagick
-  IMAGE_MAGICK_FILE="ImageMagick-6.9.11-22.tar.gz"
-  IMAGE_MAGICK_DIR="ImageMagick-6.9.11-22"
+  IMAGE_MAGICK_FILE="6.9.11-22.tar.gz"
+  IMAGE_MAGICK_DIR="6.9.11-22"
   IMAGE_MAGICK_URL="https://github.com/ImageMagick/ImageMagick6/archive/6.9.11-22.tar.gz"
 
   echo "-----> Downloading ImageMagick from $IMAGE_MAGICK_URL"
